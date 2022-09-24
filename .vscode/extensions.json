@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "dracula-theme.theme-dracula",
+    "ritwickdey.liveserver",
+    "ionutvmi.path-autocomplete",
+    "formulahendry.auto-rename-tag",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
+  ]
+}

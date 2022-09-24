@@ -1,0 +1,8 @@
+body[theme="dark"] {
+  color: var(--color-Light);
+  background: var(--color-Dark);
+}
+
+body[theme="dark"] div {
+  opacity: 0.8;
+}

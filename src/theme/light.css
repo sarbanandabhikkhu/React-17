@@ -1,0 +1,8 @@
+body[theme="light"] {
+  color: var(--color-Dark);
+  background: var(--color-Light);
+}
+
+body[theme="light"] div.insert-data {
+  opacity: 1;
+}
