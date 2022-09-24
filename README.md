@@ -30,5 +30,5 @@ git branch development
 git checkout development
 git add .
 git commit -m "development"
-git push developmentcommit"
+git push origin developmentcommit"
 ```
