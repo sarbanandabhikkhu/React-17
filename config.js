@@ -1,5 +1,5 @@
 SystemJS.config({
-  baseURL: "./unpkg/", // https://unpkg.com/
+  baseURL: "https://unpkg.com/", // unpkg/
   defaultExtension: true,
   packages: {
     "./src/": {
@@ -26,9 +26,10 @@ SystemJS.config({
       "systemjs-plugin-babel@0.0.25/systemjs-babel-browser.js",
     "systemjs-plugin-css": "systemjs-plugin-css@0.1.37/css.js",
     "systemjs-plugin-json": "systemjs-plugin-json@0.3.0/json.js",
-    react: "react@17.0.2/umd/react.development.js",
-    "react-dom": "react-dom@17.0.2/umd/react-dom.development.js",
-    "react-router-dom": "react-dom@17.0.2/umd/react-router-dom.development.js",
+    react: "react@17.0.2/umd/react.production.min.js",
+    "react-dom": "react-dom@17.0.2/umd/react-dom.production.min.js",
+    "react-router-dom":
+      "react-dom@17.0.2/umd/react-router-dom.production.min.js",
   },
   transpiler: "plugin-babel",
 });
