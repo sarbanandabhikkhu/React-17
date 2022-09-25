@@ -2,6 +2,11 @@
 coverage/
 dist/*
 !dist/index.html
+!dist/favicon.ico
+!dist/logo192.png
+!dist/logo512.png
+!dist/manifest.json
+!dist/robots.txt
 node_modules/
 *.log
 
