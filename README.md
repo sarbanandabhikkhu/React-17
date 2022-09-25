@@ -1,34 +1,37 @@
-# React 17 Startup Code
-- SystemJS
-- NodeJS
+# Webpack CLI Project
 
-# Content
-- [Create Brand new Local Git Repo](#create-brand-new-local-git-repository)
+Webpack CLI Project.
 
-### Create Brand new Local Git Repository
+## Building and running on localhost
+
+First install dependencies:
+
 ```sh
-cd /sdcard/directory
-mkdir my-app
-cd my-app
-
-git config --global --add safe.directory /storage/emulated/0/directory/my-app
-git config --global user.email "someone@gmail.com"
-git config --global user.name "someone"
-git config --global init.defaultBranch main
-
-git touch .gitignore
-git touch .README.md
-
-git add .
-git commit -m "initial commit"
-git branch -M mains
-git remote add origin https://github.com/somone/my-app.git
-git push -u origin main
-
-git branch
-git branch development
-git checkout development
-git add .
-git commit -m "development"
-git push origin developmentcommit"
+npm install
 ```
+
+To run in hot module reloading mode:
+
+```sh
+npm start
+```
+
+To create a production build:
+
+```sh
+npm run build-prod
+```
+
+To create a development build:
+
+```sh
+npm run build-dev
+```
+
+## Running
+
+Open the file `dist/index.html` in your browser
+
+## Credits
+
+Made with [createapp.dev](https://createapp.dev/)
