@@ -89,6 +89,8 @@ If you followed all previous steps, the theme should change and your editor shou
 
 Make sure in your VS Code Editor, "LF" is selected as line feed instead of CRLF (Carriage return and line feed). To do that, just click LF/CRLF in bottom right corner of editor, click it and change it to "LF". If you dont do that, you will get errors in my setup.
 
+<img src="line-feed.png" alt="Line Feed" width="700">
+
 ### Explore UNPKG
 
 unpkg is a fast, global content delivery network for everything on [npm](https://www.npmjs.com/). Use it to quickly and easily load any file from any package using a URL like:
