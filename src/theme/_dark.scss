@@ -1,6 +1,6 @@
 body[theme="dark"] {
-  color: var(--color-Light);
-  background: var(--color-Dark);
+  color: $color-Light;
+  background: $color-Dark;
 }
 
 body[theme="dark"] div {

@@ -1,23 +1,6 @@
-@import "config";
+@import "./config";
+@import "./theme/system";
+@import "./App";
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-weight: 400;
-  font-family: $font-Regular;
-  color: $color-accent;
-}
-
-body {
-  margin: 0;
-  font-family: $font-Regular;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.link {
-  color: $color-link;
-}
-
-@import "App";
+// components
+@import "./components/Header";

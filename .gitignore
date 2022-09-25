@@ -2,6 +2,7 @@
 coverage/
 dist/*
 !dist/index.html
+!dist/logo.svg
 !dist/favicon.ico
 !dist/logo192.png
 !dist/logo512.png
